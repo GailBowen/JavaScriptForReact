@@ -21,5 +21,5 @@ fetchUsers();
 
 console.log('synchronous code')
 
-console.log(a)
-console.log(b)
+console.log('a', a)
+console.log('b', b)

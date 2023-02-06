@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- <script src="async.js" defer></script> -->
+    <script src="pedro.js" defer></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gail Tests</title>
 </head>
 <body>
-    <button>defer</button>
+    <button onClick="(() => {
+            console.log('hello parrot');
+    })()">defer</button>
 
-    <script src="promises.js"></script>
+
+    <button onclick="(()=>{
+        console.log('do something1')
+        console.log('do something2')
+      })()">example1</button>
+
+    <!-- <script src="promises.js"></script> -->
 </body>
 </html>
